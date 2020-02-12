@@ -1,0 +1,18 @@
+body{
+    min-height: 2000px;
+    background: #E0F8F1;
+    font-family: "Loto", monospace;
+
+}
+a{
+    color: red;
+}
+nav{
+    font-size: 14pt;
+    block-size: 80px;
+}
+.modal-backdrop{
+    background-color: transparent;
+    font-family: "Segoe UI", monospace;
+}
+
