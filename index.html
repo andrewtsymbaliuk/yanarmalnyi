@@ -50,35 +50,43 @@
             </div>
             <div class="modal-body">
                 <div class="container-fluid">
-                    <form>
-                        <div class="input-group md-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text mr-md-auto" id="username">Username</span>
+                    <div class="row justify-content-md-center">
+                        <form>
+                            <div class="input-group md-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text mr-md-auto" id="username">Username</span>
+                                </div>
+                                <input type="text" class="form-control" aria-label="Username" aria-describedby="username">
                             </div>
-                            <input type="text" class="form-control" aria-label="Username" aria-describedby="username">
-                        </div>
-                        <div class="input-group md-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text mr-md-auto" id="password">Password</span>
+                        </form>
+                        <form>
+                            <div class="input-group md-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text mr-md-auto" id="password">Password</span>
+                                </div>
+                                <input type="password" class="form-control" aria-label="Password" aria-describedby="password">
                             </div>
-                            <input type="password" class="form-control" aria-label="Password" aria-describedby="password">
+                        </form>
+                        <div class="w-100"></div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">Запам'ятати мене
+                            </label>
                         </div>
-                    </form>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input">
-                            Запам'ятати мене
-                        </label>
+                        <div class="w-100"></div>
+                        <div class="row justify-content-md-center">
+                            <div class="container-fluid">
+                                <h6 class="modal-title" >Немає аккаунту?   <a href="registration.html"  data-target="#Registration" data-toggle="link">Зареєструватись</a></h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <h6 class="modal-title" >Немає аккаунту?<a href="registration.html"  data-target="#Registration" data-toggle="link">Зареєструватись</a></h6>
-                </div>
-
             </div>
             <div class="modal-footer">
-                <div class="container-fluid">
-                    <button type="button" class="btn btn-primary btn-lg">Увійти</button>
+                <div class="container-fluid ">
+                    <div class="row justify-content-md-center">
+                        <button type="submit" class="btn btn-dark btn-lg" >Увійти</button>
+                    </div>
                 </div>
             </div>
         </div>
