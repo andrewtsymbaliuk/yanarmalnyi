@@ -1,9 +1,10 @@
 body{
     height: 2000px;
     background: #E0F8F1;
-    font-family: "Segoe UI", serif;
+
 }
-nav{
-    font-family: "Segoe UI", serif ;
-    font-size: medium;
+.modal-backdrop {
+    background-color: transparent;
+
 }
+
