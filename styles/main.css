@@ -1,9 +1,12 @@
 body{
-    background: #FFDAD3;
+    background: #E1FDFF;
     height: 2000px;
 }
 nav{
-    background-color: #FFCAC0;
+    background-color: #21618C;
     font-family: 'Amatic SC', cursive;
     font-size: 18pt;
+}
+.modal-backdrop{
+    background-color: transparent;
 }
