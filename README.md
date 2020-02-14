@@ -1,2 +1,2 @@
-# yanarmalyi
+# yanarmalnyi
  website yanarmalnyi
