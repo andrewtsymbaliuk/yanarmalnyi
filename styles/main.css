@@ -1,9 +1,10 @@
 body{
-    background: #AFFFB4;
-    height: 2000px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    height: 1000px;
 }
 nav{
-    background-color: #FFAFAF;
+
+    background: linear-gradient(to top left, powderblue, pink);
     font-family: 'Amatic SC', cursive;
     font-size: 18pt;
 }
