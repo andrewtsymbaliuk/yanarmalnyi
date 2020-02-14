@@ -1,5 +1,6 @@
+
 body{
-    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    background: linear-gradient(90deg, #FFB2B2, #544444);
     height: 1000px;
 }
 nav{
@@ -12,5 +13,9 @@ nav{
     background-color: transparent;
 }
 .dropdown-menu{
-    background-color: #FFAFAF;
+    background: linear-gradient(90deg, #FFB2B2, #544444);
+    opacity: 70%;
+}
+.modal-content{
+    background: linear-gradient(90deg, #FFB2B2, #544444);
 }
