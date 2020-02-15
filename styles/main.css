@@ -1,11 +1,10 @@
 
 body{
-    background: linear-gradient(90deg, #FFB2B2, #544444);
-    height: 1000px;
+    background: linear-gradient(265deg, #FE2E2E, #0040FF);
+    height: 2000px;
 }
 nav{
-    background-color: transparent;
-);
+    background-color: transparent;);
     font-family: 'Amatic SC', cursive;
     font-size: 18pt;
 }
@@ -13,9 +12,37 @@ nav{
     background-color: transparent;
 }
 .dropdown-menu{
-    background: linear-gradient(90deg, #FFB2B2, #544444);
     opacity: 70%;
 }
 .modal-content{
-    background: linear-gradient(90deg, #FFB2B2, #544444);
+    opacity: 90%;
+}
+#headerrr{
+    font-family: "Montserrat Black", sans-serif;
+    height: 400px;
+
+    color: white;
+
+}
+.best{
+    font-family: "Montserrat Medium", sans-serif;
+    opacity: 30%;
+    font-size: 110px;
+}
+.fraza{
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+.vneplan{
+    letter-spacing: 10px;
+    font-size: 13pt;
+}
+.ya{
+    opacity: 40%;
+    font-family: "Montserrat Light", sans-serif;
+    color: black;
+    font-size: 81pt;
+}
+.a{
+    color: white;
 }
