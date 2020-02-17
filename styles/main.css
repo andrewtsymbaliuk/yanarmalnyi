@@ -1,21 +1,15 @@
 
 body{
-    background: linear-gradient(265deg, #FE2E2E, #0040FF);
+    background: linear-gradient(265deg, #F5BCA9,#D8D8D8);
     height: 2000px;
 }
 nav{
-    background-color: transparent;);
+
     font-family: 'Amatic SC', cursive;
     font-size: 18pt;
 }
 .modal-backdrop{
     background-color: transparent;
-}
-.dropdown-menu{
-    opacity: 70%;
-}
-.modal-content{
-    opacity: 90%;
 }
 #headerrr{
     font-family: "Montserrat Black", sans-serif;
