@@ -1,42 +1,30 @@
 
 body{
-    background: linear-gradient(265deg, #F5BCA9,#D8D8D8);
+    background: #F3F3F3 ;
     height: 2000px;
 }
 nav{
-
-    font-family: 'Amatic SC', cursive;
+    background: #FFF7E3 ;
+}
+nav #navbarSupportedContent a{
+     font-family: 'Comfortaa', cursive;
     font-size: 18pt;
+     color: #252525;
+     padding:10px;
 }
 .modal-backdrop{
-    background-color: transparent;
+
 }
 #headerrr{
     font-family: "Montserrat Black", sans-serif;
     height: 400px;
-
-    color: white;
-
-}
-.best{
-    font-family: "Montserrat Medium", sans-serif;
-    opacity: 30%;
-    font-size: 110px;
+    color: #252525;
 }
 .fraza{
     letter-spacing: 5px;
-    font-size: 50px;
+    font-size: 70px;
 }
 .vneplan{
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     font-size: 13pt;
-}
-.ya{
-    opacity: 40%;
-    font-family: "Montserrat Light", sans-serif;
-    color: black;
-    font-size: 81pt;
-}
-.a{
-    color: white;
 }
