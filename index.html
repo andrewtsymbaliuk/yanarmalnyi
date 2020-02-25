@@ -2,130 +2,136 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Montserrat|Pangolin|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" >
-    <title>Я Нармальний</title>
+    <script src="https://kit.fontawesome.com/0cf26b1902.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Головна | Я Нармальний</title>
 </head>
 <body>
-<header>
-    <div class="container-fluid justify-content-center">
-        <div class="row">
-            <div class="container-fluid " id="headerrr">
-                <div class="fraza">
-                    <p >Хто-Ти?</p>
-                </div>
-                <div class="vneplan">
-                    <p>Зроби свій вибір</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<nav class="navbar navbar-expand-md navbar-light">
-    <nav class="navbar navbar-expand-md navbar-light ">
-        <div class="container-md">
-            <a class="navbar-brand " href="index.html">
-                <img src="img/logo3.png" width="50" height="46" class="d-inline-block align-top " alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="order.html">Зробити вибір<span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Хелпануть?<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#Contacts">Фідбек<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav my-2 my-lg-0">
-                    <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#SingIn">
-                            <img src="img/log.png " height="50" width="50" ><span class="sr-only">(current)</span>
+    <div class="wrapper">
+        <header class="menu-bar fixed-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <a href="index.html" class="logo-site">
+                            <img src="img/logo.png" width="63" height="39" alt="Site Logo" class="logo">
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
- <div class="modal fade" id="SingIn" tabindex="-1" role="dialog" aria-labelledby="SignInLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class=" modal-header">
-                    <h5 class="modal-title " id="SingInLabel">Авторизация</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    </div>
+                    <div class="col mx-auto align-self-center">
+                        <nav>
+                            <ul class="menu d-flex justify-content-end">
+                                <li class="menu-item" >
+                                    <a href="index.html">
+                                        <i class="fas fa-h-square"></i>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <i class="fas fa-shopping-bag"></i>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <i class="fas fa-question-circle"></i>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <i class="fas fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="container-fluid">
-                            <div class="row justify-content-md-center">
-                                <form>
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text " id="username">Username</span>
-                                        </div>
-                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="username">
-                                    </div>
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text " id="password">Password</span>
-                                        </div>
-                                        <input type="password" class="form-control" aria-label="Password" aria-describedby="password">
-                                    </div>
-                                </form>
-                                <div class="form-check mb-3">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input">Запомнить меня
-                                    </label>
+            </div>
+        </header>
+        <main class="content">
+
+        </main>
+        <footer class="footer">
+            <div class="get-in">
+                <div class="get-in-content">
+                    <h2 class="get-in-content-text">Хочете зв'язатись з нами?</h2>
+                    <a class="get-in-content-link" href="https://t.me/andrewtsymbaliuk">Написати</a>
+                </div>
+            </div>
+            <div class="footer-wrapper">
+                <div class="footer-content">
+                    <div class="footer-top">
+                        <div class="footer-contact" >
+                            <h2 class="footer-title">Контакти</h2>
+                            <div class="footer-contact-content">
+                                <div class="footer-contact">
+                                    <p class="footer-contact-item">
+                                        м. Київ, вул. Металістів,
+                                        <br>
+                                        буд. 5, кабінет 10.06
+                                    </p>
+                                    <p>
+                                        <a class="footer-phone" href="tel:+380962602574">
+                                            <i class="fas fa-phone-square-alt"></i>
+                                            +380962602574
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a class="footer-link" href="#">
+                                            Політика конфіденційності
+                                        </a>
+                                    </p>
                                 </div>
-                                <div class="w-100"></div>
-                                <h6 class="modal-title" >Нет аккаунта?<a href="registration.html"  data-target="#Registration" data-toggle="link"> Зарегистрироваться</a></h6>
+                            </div>
+                        </div>
+                        <div class="footer-contact-link">
+                            <h2 class="footer-title">Соцмережі</h2>
+                            <div class="footer-menu">
+                                <ul class="footer-menu-social">
+                                    <li class="footer-menu-item">
+                                        <a class="footer-link" href="https://www.facebook.com/andrewtsymbaliuk">
+                                            <i class="fab fa-facebook"></i>
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li class="footer-menu-item">
+                                        <a class="footer-link" href="https://www.linkedin.com/in/andrewtsymbaliuk/">
+                                            <i class="fab fa-linkedin"></i>
+                                             Linkedin
+                                        </a>
+                                    </li>
+                                    <li class="footer-menu-item">
+                                        <a class="footer-link" href="https://t.me/andrewtsymbaliuk">
+                                            <i class="fab fa-telegram"></i>
+                                            Telegram
+                                        </a>
+                                    </li>
+                                    <li class="footer-menu-item">
+                                        <a class="footer-link" href="https://www.instagram.com/andrewtsymbaluik/">
+                                            <i class="fab fa-instagram-square"></i>
+                                             Instagram
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <div class="container-fluid ">
-                        <div class="row justify-content-md-center">
-                            <button type="submit" class="btn btn-info btn-lg" >Войти</button>
-                        </div>
+                    <div class="footer-bottom">
+                        <p class="footer-copyright">
+                            <i class="fas fa-copyright"></i>
+                            Copyright "Я Нармальний" 2020
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
- <div class="modal fade" id="Contacts" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="SignInLabel" aria-hidden="true">
-     <div class="modal-dialog modal-dialog-centered  modal-md" role="document">
-         <div class="modal-content">
-             <div class=" modal-header">
-                 <h5 class="modal-title " id="ContactsTittle">Контакти</h5>
-                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                 </button>
-             </div>
-             <div class="modal-body">
-                 <div  class="container-fluid">
-                 </div>
-             </div>
-             <div class="modal-footer">
-                 <div class="container-fluid ">
-                     <div class="row justify-content-md-center">
-                         <button type="button" class="btn btn-secondary btn-lg"  data-dismiss="modal">Закрыть</button>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
- </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
