@@ -1,10 +1,6 @@
 body{
     background: #FBFCFC;
-    height: 1000px;
     font-family: 'Montserrat Black', monospace;
-}
-.menu-bar{
-    background: #FBFCFC;
 }
 .logo-site{
     padding-top: 2px;
@@ -24,7 +20,7 @@ nav a{
 }
 .menu-item{
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .footer{
     display: flex;
@@ -46,20 +42,21 @@ nav a{
     padding-top: 90px;
     padding-bottom: 90px;
 }
-@media only screen and (max-width: 1386px) {
+@media only screen and (max-width: 1920px) {
     .get-in-content-text {
         font-size: 80px;
     }
 }
+
 @media only screen and (max-width: 768px){
     .get-in-content-text{
-        font-size: 53px;
+        font-size: 55px;
     }
 }
 
 @media only screen and (max-width: 560px){
     .get-in-content-text{
-        font-size: 46px;
+        font-size: 45px;
     }
 }
 .get-in-content{
@@ -108,12 +105,12 @@ nav a{
     font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    background: black;
+    background: #131313;
     cursor: pointer;
 }
 .get-in-content-link:hover {
     color: #FBFCFC;
-    background: black;
+    background: #131313;
     box-shadow: 0 19px 57px 0 rgba(0, 0, 0, 0.95);
 }
 .footer-wrapper{
@@ -142,22 +139,45 @@ nav a{
     font-weight: 800;
     font-size: 32px;
     text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 3px solid #FBFCFC;
 }
-
+.footer-contact{
+    padding-left: 10px;
+}
 .footer-menu-social{
     display: flex;
     flex-direction: column;
 }
 .footer-menu-item{
-    padding-bottom: 5px;
-    justify-content: center;
+    padding-left: 20px;
+    justify-content: start;
     font-family: "Montserrat Medium", monospace;
+}
+.footer-menu-item pre {
+    font-family: "Montserrat Medium", monospace;
+    font-size: 14px;
+    color: #FBFCFC ;
+    margin-bottom: 5px;
 }
 .footer-bottom{
     display: flex;
     justify-content: center;
 }
+.footer-colum{
+    flex-direction: column;
+}
+.footer-polition{
+    padding-left: 7px;
+    font-family: "Montserrat Light",monospace;
+    font-size: 13px;
+    color: #FBFCFC ;
+}
+.footer-polition :hover{
+    color: #FBFCFC;
+}
 .footer-copyright{
+    flex-direction: row;
     font-family: "Montserrat Light",monospace;
     font-size: 12px;
     color: #FBFCFC ;
@@ -167,5 +187,5 @@ nav a{
     font-size: 14px;
 }
 main{
-    height: 1000px;
+    height: 800px;
 }
