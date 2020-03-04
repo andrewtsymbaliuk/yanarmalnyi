@@ -1,10 +1,10 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,900&display=swap');
+body {
     background: #FBFCFC;
     font-family: 'Montserrat Black', monospace;
 }
-.logo-site{
-    padding-top: 2px;
-    padding-bottom: 2px;
+.menu-bar{
+    background: #FBFCFC;
 }
 nav a{
     color: #131313;
@@ -42,22 +42,8 @@ nav a{
     padding-top: 90px;
     padding-bottom: 90px;
 }
-@media only screen and (max-width: 1920px) {
-    .get-in-content-text {
-        font-size: 80px;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    .get-in-content-text{
-        font-size: 55px;
-    }
-}
-
-@media only screen and (max-width: 560px){
-    .get-in-content-text{
-        font-size: 45px;
-    }
+.get-in-content h2{
+    font-size: 80px;
 }
 .get-in-content{
     position: relative;
@@ -71,7 +57,7 @@ nav a{
     text-transform: uppercase;
     background: linear-gradient(45deg, #274fbd, #01d8fd, #14dfea, #3fc12a, #f9ac07, #5406d9, #e912a3, #7a3bca, #f9ac07, #7a3bca);
     background-size: 1000% 1000%;
-    transition: height 1s linear;
+    transition: height .10s linear;
     animation: gradient-overflow 60s linear infinite;
 }
 @keyframes gradient-overflow{
@@ -185,7 +171,4 @@ nav a{
 .footer-contact-content{
     font-family: "Montserrat Medium",monospace;
     font-size: 14px;
-}
-main{
-    height: 800px;
 }
