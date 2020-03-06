@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding:0;
+    background: transparent;
 }
 .navbar-nav{
     padding: 0;
@@ -386,6 +387,33 @@ input::-webkit-input-placeholder {
 }
 button, input, select {
     margin: 0;
+}
+.info__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 105px 30px 50px;
+    color: white;
+    font-size: 3.8vw;
+    background: linear-gradient(45deg, #f9ac07, #5406d9);
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+.info__title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 120px 100px 120px;
+    color: #fff;
+}
+.info__title-container {
+    position: relative;
 }
 
 @media only screen and (max-width: 1024px) {
