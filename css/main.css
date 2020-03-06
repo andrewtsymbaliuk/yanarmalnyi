@@ -335,7 +335,7 @@ body {
 .search-page__title .sub-title-colored__description {
     font-weight: 800;
     font-size: 27px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Medium", sans-serif;
     line-height: normal;
 }
 .sub-title-colored__description {
@@ -361,9 +361,6 @@ form {
     height: 88px;
     font-size: 40px;
 }
-.form-input__text {
-    height: 58px;
-}
 .form-input__text, .form-input__textarea {
     display: block;
     width: 100%;
@@ -376,8 +373,16 @@ form {
     border-radius: 0;
     outline: none;
 }
+.form-input__text {
+    height: 58px;
+    color: #131313;
+}
 input {
     overflow: visible;
+}
+input::-webkit-input-placeholder {
+    color: #131313;
+    font-family: 'Montserrat ExtraLight', monospace;
 }
 button, input, select {
     margin: 0;
