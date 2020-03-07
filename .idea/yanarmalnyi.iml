@@ -8,5 +8,6 @@
     <orderEntry type="library" name="popper" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="0cf26b1902" level="application" />
+    <orderEntry type="library" name="font-awesome" level="application" />
   </component>
 </module>

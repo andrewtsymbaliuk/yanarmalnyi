@@ -3,72 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/0cf26b1902.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+
     <title>Головна | Я Нармальний</title>
 </head>
 <body>
+    <div class="preloader" id="page-preloader">
+        <div class="loader"></div>
+    </div>
     <div class="wrapper">
-        <header class="menu-bar fixed-top">
-            <div class="container-xs">
-                <div class="row">
-                    <div class="col-auto">
-                        <a href="index.html" class="logo-site">
-                            <img src="img/logo1.png" width="65" height="28" alt="Site Logo" class="logo">
-                        </a>
-                    </div>
-                    <div class="col mx-auto align-self-center">
-                        <nav>
-                            <ul class="menu d-flex justify-content-end">
-                                <li class="menu-item">
-                                    <a href="#">
-                                        <i class="fas fa-shopping-bag"></i>
-                                    </a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#">
-                                        <i class="fas fa-question"></i>
-                                    </a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#">
-                                        <i class="fas fa-search"></i>
-                                    </a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#">
-                                        <i class="fas fa-sign-in-alt"></i>
-                                        <!--   <i class="fas fa-user-alt"></i>
-                                        -->
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+        <div class="container-md navbar__top">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <a href="index.html" class="navbar__logo-site">
+                        <img src="img/logo2.png" width="50" height="40" alt="Site Logo" class="logo">
+                    </a>
                 </div>
-            </div>
-        </header>
+                <div class="navbar-nav">
+                    <a href="#">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                    <a href="info.html">
+                        <i class="fas fa-question"></i>
+                    </a>
+                    <a href="search.html">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <main class="content">
+
+        </main>
         <footer class="footer">
-            <div class="get-in">
-                <div class="get-in-content">
-                    <h2 class="get-in-content-text">Хочете зв'язатись з нами?</h2>
-                    <a class="get-in-content-link" href="https://t.me/andrewtsymbaliuk">Написати</a>
+            <div class="footer__get-support get-support">
+                <div class="get-support__content ">
+                    <h2 class="content-text">Хочете зв'язатись з нами?</h2>
+                    <a class="content-link" href="https://t.me/YaNarmalnyiBot">Написати</a>
                 </div>
             </div>
-            <div class="footer-wrapper">
-                <div class="footer-content">
-                    <div class="footer-top">
-                        <div class="footer-contact" >
-                            <h2 class="footer-title">Контакти</h2>
-                            <div class="footer-contact-content">
-                                <div class="footer-contact">
-                                    <p class="footer-contact-item">
+            <div class="wrapper__footer">
+                <div class="footer__content">
+                    <div class="footer__top">
+                        <div class="footer__contacts">
+                            <h2 class="footer__heading">Контакти</h2>
+                            <div class="footer__contacts-content">
+                                <div class="footer__first-contact">
+                                    <h3 class="footer__sub-heading">Головний офіс у Києві</h3>
+                                    <p class="footer__contact-item">
                                         м. Київ, вул. Металістів,
                                         <br>
                                         буд. 5
                                     </p>
-                                    <p>
-                                        <a class="footer-phone" href="tel:+380962602574">
+                                    <p class="footer__contact-item footer__link">
+                                        <a class="footer__phone" href="tel:+380962602574">
                                             <i class="fas fa-phone-square-alt"></i>
                                             +380962602574
                                         </a>
@@ -76,58 +69,52 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="footer-contact-link">
-                            <h2 class="footer-title">Соцмережі</h2>
-                            <div class="footer-menu">
-                                <ul class="footer-menu-social">
-                                    <li class="footer-menu-item">
-                                        <a class="footer-link" href="https://www.facebook.com/andrewtsymbaliuk">
-                                            <i class="fab fa-facebook"></i>
-                                            <pre>   Facebook</pre>
+                        <div class="footer__hot-links">
+                            <h2 class="footer__heading">Соцмережі</h2>
+                            <div class="footer__hot-links-content footer__link">
+                                <ul class="footer__nav">
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="https://www.facebook.com/andrewtsymbaliuk">
+                                            <i class="fab fa-facebook"></i>Facebook
                                         </a>
                                     </li>
-                                    <li class="footer-menu-item">
-                                        <a class="footer-link" href="https://www.linkedin.com/in/andrewtsymbaliuk/">
-                                            <i class="fab fa-linkedin"></i>
-                                             <pre>    Linkedin</pre>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="https://www.linkedin.com/in/andrewtsymbaliuk/">
+                                            <i class="fab fa-linkedin"></i>Linkedin
                                         </a>
                                     </li>
-                                    <li class="footer-menu-item">
-                                        <a class="footer-link" href="https://t.me/andrewtsymbaliuk">
-                                            <i class="fab fa-telegram"></i>
-                                            <pre>    Telegram</pre>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="https://t.me/andrewtsymbaliuk">
+                                            <i class="fab fa-telegram"></i>Telegram
                                         </a>
                                     </li>
-                                    <li class="footer-menu-item">
-                                        <a class="footer-link" href="https://www.instagram.com/andrewtsymbaluik/">
-                                            <i class="fab fa-instagram-square"></i>
-                                            <pre>     Instagram</pre>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="https://www.instagram.com/andrewtsymbaluik/">
+                                            <i class="fab fa-instagram-square"></i>Instagram
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="footer-bottom">
-                        <div class="footer-colum">
-                            <p class="footer-polition">
+                    <div class="footer__bottom">
+                        <div class="bottom_container">
+                            <p class="footer__privacy-policy footer__link">
                                 <a class="footer-link" href="#">
                                     <i class="fas fa-info-circle"></i>
                                     Політика конфіденційності
                                 </a>
                             </p>
-                            <p class="footer-copyright">
+                            <p class="footer__copyright">
                                 <i class="fas fa-copyright"></i>
                                 Copyright "Я Нармальний" 2020
                             </p>
                         </div>
-                    </div>
                 </div>
             </div>
         </footer>
     </div>
-
-    <script src="https://kit.fontawesome.com/0cf26b1902.js" crossorigin="anonymous"></script>
+    <script src="js/preloader.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
